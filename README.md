@@ -190,7 +190,7 @@ nothing to commit (working directory clean)
 现在版本库变成了这样，暂存区就没有任何内容了。
 
 
-***==注意：== git commit 只能提交git add之后的***
+***注意： git commit 只能提交git add之后的***
 ## 7.撤销修改
 * **git checkout -- readme.txt**
 意思是把readme.txt文件在工作区的修改全部撤销。
@@ -221,7 +221,7 @@ $ git commit -m "remove test.txt"
 * 第二种情况:删错文件了，不应该删test.txt，注意这时只执行了rm test.txt，还没有提交，所以可以执行
 **git checkout test.txt**将文件恢复。
 
-==***注意：***==
+***注意：***
 ***并不是说执行完git commit -m "remove test.txt"， 后还能用checkout恢复，commit之后版本库里的文件也没了，自然没办法用checkout恢复，而是要用其他的办法。***
 
 ## 9.远程仓库—GitHub
