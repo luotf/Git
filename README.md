@@ -1,4 +1,4 @@
-# Git
+# Git教程
 ## 1.集中式vs分布式
 ### 1.1集中式版本控制系统（SVN和CVS）
 先从中央服务器取得最新的版本，然后开始干活，干完活了，再把自己的活推送给中央服务器
@@ -19,7 +19,7 @@ $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
 ```
 
-***==注意：==
+***注意：
 git config命令的--global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。***
 
 ## 3.创建版本库
